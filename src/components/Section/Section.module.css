@@ -1,0 +1,15 @@
+.container{
+    max-width: 600px;
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 40px;
+    background-color: var(--bgColor);
+    box-shadow: var(--boxShadow);
+    position: absolute;               
+    top: 50%; 
+    left: 50%;                        
+    transform: translate(-50%, -50%)
+ }   
