@@ -60,7 +60,7 @@ class ContactForm extends Component {
             required
           />
         </label>
-        <button className={css.btn} type="submit">Add contacts</button>
+        <button className={css.btnFormAdd} type="submit">Add contacts</button>
       </form>
     );
   }

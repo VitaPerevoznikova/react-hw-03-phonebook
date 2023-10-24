@@ -14,17 +14,33 @@
     margin-bottom: 10px;
   }
   
-  .btn {
-    width: 30px;
+  .btnList {
+    width: 60px;
+    padding: 5px;
     height: auto;
     cursor: pointer;
     display: inline-block;
+    font-family: inherit;
+    border-radius: 15px;
    
     border: none;
     outline: none;
-    transition: transform 250ms var(--timingFn);
+
+    transition: .15s ease-in-out var(--timingFn);
   }
   
-  .btn:hover {
+  /* .btn:hover {
     transform: scale(1.1);
-  }
+  } */
+
+  .btnList:hover,
+  .btnList:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 0.6em transparent;
+  color: red;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--accentColor); }
+}
+  
