@@ -6,17 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #d8bad5;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(./img/sky-background.avif);
-  background-repeat: no-repeat;
-  /* background-position: center; */
-  background-size: cover;
-  height: auto;
-  width: 100%;
+  background-color:rgb(188, 143, 143, .5) ;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -25,7 +15,7 @@ code {
 :root {
   --primaryTextColor: #212121;
   --secondaryTextColor: #566573;
-  --accentColor: #bc8f8f;
+  --accentColor: rgb(188, 143, 143);
   --bgColor: #eedee5;
   --boxShadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
