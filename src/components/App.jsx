@@ -8,7 +8,7 @@ import ContactList from './ContactList/ContactList';
 
 import { Filter } from './Filter/Filter';
 
-import initialContacts from './contacts.json';
+import initialContacts from './data/contacts.json';
 
 import { nanoid } from 'nanoid';
 
@@ -84,7 +84,7 @@ export class App extends Component {
           {visibleContacts.length > 0 ? (
             <Filter value={filter} onChangeFilter={this.onChangeFilter} />
           ) :(
-            <div>Your phonebook is empty. Add first contact!</div>
+            <div>There are no contacts in your phonebook. Please add your first contact!</div>
           )}
           {visibleContacts.length > 0 && (
             <ContactList
